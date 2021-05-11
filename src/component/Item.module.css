@@ -1,0 +1,30 @@
+.wrap {
+  display: flex;
+  padding: 40px 0;
+  border-bottom: 1px solid #ccc;
+}
+.img {
+  flex: 200px 0 0;
+}
+.img img {
+  display: block;
+}
+.info {
+  flex: 1 0 0;
+}
+
+.title {
+  display: block;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.price {
+  display: block;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.brand {
+  display: block;
+  font-size: 18px;
+  margin: 20px 0px;
+}
