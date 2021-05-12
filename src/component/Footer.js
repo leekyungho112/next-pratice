@@ -1,3 +1,12 @@
+import { Divider } from 'semantic-ui-react';
+
 export default function Footer() {
-  return <div>Copyright . All rights reserved.</div>;
+  return (
+    <>
+      <Divider />
+      <div style={{ textAlign: 'center', paddingTop: 20 }}>
+        Copyright . All rights reserved.
+      </div>
+    </>
+  );
 }
